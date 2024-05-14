@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&display=swap');
+
+
+body { 
+	-ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+    margin: 0 0 0 0;
+}
+
+
+.mainPage {
+    background: linear-gradient(to bottom, #21928B 0%, #5F006F 100%);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.logo {
+    position: absolute;
+    left: 137px;
+    top: 37px;
+    width: 55px;
+    height: 55px;
+}
+
+.header {
+    background-color: #C07F00;
+    width: 420px;
+    height: 70px;
+    border-radius: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.headerUL {
+    list-style: none; 
+    padding: 0; 
+}
+
+.headerLI {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-right: 31px;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.headerLI:first-child {
+    margin-left: 26px;
+}
+
+.headerLI:last-child {
+    margin-right: 26px;
+}
+
+.resumePage {
+    position: relative;
+    background: linear-gradient(to bottom, #5F006F 0%, #FFA800 75% );
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.logoText {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    font-size: 36px; 
+    color: white; 
+    width: 156px;
+    height: 47px;
+    position: absolute;
+    top: 3px;
+    margin-left: 196px;
+}
+
+.net {
+    color: #C07F00
+}
+
+.VKlogo {
+    position: absolute;
+    right: 233px;
+    top: 27px;
+    width: 72px;
+    height: 72px;
+}
+
+.TGlogo {
+    position: absolute;
+    right: 142px;
+    top: 28px;
+    width: 72px;
+    height: 72px;
+}
+
+.aheader {
+    text-decoration: none;
+}
+
+.aheader:active {
+    color: white;
+}
+
+.Resume {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.headerLI:hover {
+    text-shadow: 1px 0px 2px wheat;
+}
+
+.TGlogo:hover {
+    filter:drop-shadow(1px 0px 2px wheat);
+}
+
+.VKlogo:hover {
+    filter:drop-shadow(1px 0px 2px wheat);
+}
+
+.mainInfo {
+    left: 137px;
+    position: absolute;
+    right: 142px;
+    height: 100vh;
+}
+
+.myName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+    margin: 0;
+    top: 235px;
+    position: absolute;
+    width: 604px;
+    height: 152px;
+}
+
+.myDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(182, 182, 182);
+    margin: 0;
+    top: 436px;
+    position: absolute;
+    width: 524px;
+    height: 137px;
+    left: 5px;
+}
+
+.photoCircle {
+    position: absolute;
+    top: 98px;
+    right: 233px;
+    width: 650px;
+    height: 650px;
+    border-radius: 500px;
+    background-image: url("../IMG/PhotoPersonal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contactButton {
+    position: absolute;
+    background-color: #C07F00;
+    width: 327px;
+    height: 70px;
+    border-radius: 42px;
+    top: 550px;
+    left: 7px;
+}
+
+.contactText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 17px;
+    margin-left: 81px;
+    margin-right: 84px;
+
+}
+
+.contactButton:hover {
+    filter:drop-shadow(1px 0px 2px wheat);
+}
+
+.photoCircleDecor {
+    width: 154px;
+    height: 154px;
+    background-color: #C07F00;
+    border-radius: 100px;
+    
+}
+ 
+
+.DecorText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FEtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FrontendText {
+    width: 130px;
+    height: 85px;
+    text-align: center;
+}
+
+.textux {
+    position: absolute;
+    top: 151px;
+    right: 780px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.textui {
+    position: absolute;
+    top: 570px;
+    right: 756px;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.textfe {
+    position: absolute;
+    top: 233px;
+    right: 161px;
+    animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale(.85);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(.85);
+    }
+}
+
+.aboutInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.InfoCircle {
+    /* position: absolute; */
+    /* top: 98px; */
+    display: flex;
+    flex: 1;
+    /* width: 45vh;
+    height: 45vh; */
+    /* border-radius: 500px; */
+    /* background-image: url("../IMG/PhotoPersonal2.jpg"); */
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 24px;
+
+}
+
+.borderInfoCircle {
+    /* position: relative; */
+    display: flex;
+    flex: 1;
+    height: 25vw;
+    width: 25vw;
+    /* width: 50vh;
+    height: 50vh; */
+    border-radius: 50%;
+    border: 6px dashed white;
+    /* margin-left: 111px; */
+    /* margin: 49px; */
+}
+
+.bottomTextResume {
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 101px;
+    color: rgba(0, 0, 0, 0);
+    margin: 0;
+    -webkit-text-stroke: 3px white;
+}
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки */
+    grid-template-rows: auto auto; /* Две строки */
+    gap: 20px; /* Расстояние между элементами */
+    }
+  
+  .text-block {
+    grid-column: 1; /* Занимает первую колонку */
+    grid-row: 1; /* Занимает первую строку */
+    font-family: 'Montserrat', sans-serif; /* Используем Montserrat */
+    font-weight: 600; /* Semibold */
+    color: white;
+    font-size: 40;
+  }
+  
+  .image-block {
+    grid-column: 2; /* Занимает вторую колонку */
+    grid-row: 1 / span 2; /* Занимает первую строку и следующую за ней */
+  }
+  
+  .image-block:nth-child(3) {
+    grid-column: 1; /* Занимает первую колонку */
+    grid-row: 2; /* Занимает вторую строку */
+  }
+
+  .TomskStudent {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+
+  .bannerPortfolio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+    margin: 0;
+    margin-left: 137px;
+    top: 317px;
+    position: absolute;
+    width: 604px;
+    height: 152px;
+    }
+  
+  .bannerInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(182, 182, 182);
+    width: 475px;
+    height: 511px;
+    position: absolute;
+    top: 394px;
+    margin-left: 141px
+  }
+
+  .LapTop {
+    position: absolute;
+    top: 213px;
+    right: 180px;
+  }
+
+  #triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #C07F00;
+    transform: rotate(180deg);
+    position: absolute;
+    margin: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 864px;
+    animation: moveUpDown 2s infinite alternate;
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 859px;
+    }
+    100% {
+      top: 871px;
+    }
+  }
+
+  .proectsPage {
+    position: relative;
+    background: linear-gradient(to bottom, #5F006F 0%, #FFA800 75% );
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .bannerNames {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: 50px;
+  }
+  
+  .bannerName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 120px;
+    color: white;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .bannerElementOfGroup {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: relative;
+  }
+
+  .anim1::after {
+    content: "Шаблон сайта, реализованный в фигме";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFA800
+  }
+
+  .anim1:hover::after {
+    opacity: 1;
+  }
+
+  .anim2::after {
+    content: "Готовый сайт для фирмы по аренде премиум автомобилей";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFA800
+  }
+
+  .anim2:hover::after {
+    opacity: 1;
+  }
+
+  .anim3::after {
+    content: "Простое приложение на Python для нахождения определителя матрицы";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFA800
+  }
+
+  .anim3:hover::after {
+    opacity: 1;
+  }
+
+  .bannerElementOfGroup:first-child {
+    margin-right: 60px;
+   }
+
+  .bannerElementOfGroup:last-child {
+    margin-left: 60px;
+    }
+
+  .bannerName:first-child {
+    margin-right: 201px;
+   }
+
+  .bannerName:last-child {
+    margin-left: 201px;
+    }
+
+    .bannerGroup {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        margin-left: 83px;
+    }
+
+    .abannerGroup {
+        text-decoration: none;
+    }
+
+
+
+
+
+
